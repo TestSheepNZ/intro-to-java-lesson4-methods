@@ -1,0 +1,25 @@
+#Generic IDE ignore rules across all projects
+
+# intellij stuff
+*.iml
+.idea
+
+# eclipse stuff
+.classpath
+.project
+.checkstyle
+.settings
+.metadata
+.pages.xml.spdia
+.faces-config.xml.jsfdia
+
+
+#Built areas
+
+/target/
+/bin/
+
+
+# Ignore log items
+/src/main/resources/screenshots/*.html
+/src/main/resources/screenshots/img/*.gif
